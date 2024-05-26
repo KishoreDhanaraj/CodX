@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodX</title>
+    <link rel="stylesheet" href="codX.css" />
+    <link
+      href="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d1026a746ad_favicon32x32.jpg"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="left-nav">
+          <div>
+            <a href="#"
+              ><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6214ae55324d2ce2c5fe2ab6_logo-1000.svg"
+                class="brand-image"
+            /></a>
+          </div>
+          <ul class="nav-font nav-menu">
+            <li><a href="#about-us" class="nav-hover">About Us</a></li>
+            <li><a href="" class="nav-hover">NFTs</a></li>
+            <li><a href="" class="nav-hover">Contact</a></li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul class="nav-menu">
+            <li>
+              <a href="">
+                <svg
+                  class="s-logo nav-hover sm-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentColor"
+                  version="1.1"
+                  id="Layer_1"
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 56.693 56.693"
+                  style="enable-background: new 0 0 56.693 56.693"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M54.082,15.5495c-1.8115,0.8047-3.7597,1.3477-5.8051,1.5913c2.0874-1.25,3.6894-3.2305,4.4443-5.5918  c-1.9531,1.1587-4.1152,2-6.418,2.4536c-1.8432-1.9643-4.4702-3.1919-7.3769-3.1919c-5.5816,0-10.1069,4.5254-10.1069,10.107  c0,0.792,0.0893,1.563,0.2617,2.3027c-8.3999-0.4209-15.8477-4.4443-20.8325-10.5596c-0.8697,1.4922-1.3682,3.2281-1.3682,5.0811  c0,3.5063,1.7842,6.5996,4.4961,8.4126c-1.6563-0.0532-3.2154-0.5073-4.5777-1.2647c-0.0009,0.042-0.0009,0.0845-0.0009,0.128  c0,4.896,3.4839,8.9809,8.1079,9.9101c-0.8482,0.2305-1.7412,0.3545-2.6631,0.3545c-0.6519,0-1.2847-0.063-1.9019-0.1816  c1.2867,4.0151,5.0191,6.9375,9.441,7.019c-3.459,2.711-7.8165,4.3267-12.5523,4.3267c-0.8154,0-1.6196-0.0484-2.4106-0.1411  c4.4736,2.8681,9.7856,4.541,15.4931,4.541c18.5908,0,28.7559-15.4009,28.7559-28.7569c0-0.4375-0.0088-0.8745-0.0283-1.3076  C51.0137,19.3571,52.728,17.5769,54.082,15.5495z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg
+                  class="s-logo nav-hover sm-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentcolor"
+                  version="1.1"
+                  id="Layer_1"
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 56.693 56.693"
+                  enable-background="new 0 0 56.693 56.693"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg
+                  class="s-logo nav-hover sm-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentColor"
+                  version="1.1"
+                  id="Layer_1"
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 56.7 56.7"
+                  style="enable-background: new 0 0 56.7 56.7"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7   c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"
+                    ></path>
+                    <circle cx="41.5" cy="16.4" r="2.9"></circle>
+                    <path
+                      d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9   h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.4,39.9c0,3.1-0.9,5.6-2.7,7.3   c-1.8,1.7-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6   c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9z"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href=""
+                ><button class="viewBtn nav-font voo-hover">
+                  View On OpenSea
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="menu">
+          <i class="fa-solid fa-bars nav-hover"></i>
+        </div>
+      </nav>
+      <main>
+        <div class="mainContainer">
+          <div class="main-left">
+            <h4>EXTRAORDINARY NFTs</h4>
+            <h1>Change your</h1>
+            <h1 class="gradient-text">Digital Experience</h1>
+            <p>
+              Suspendisse sem neque, auctor a elementum ut,<br />
+              varius vel leo. Donec diam arcu, porta et magna at
+            </p>
+          </div>
+          <div class="main-right">
+            <img
+              class="image-hero"
+              src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416057edb3e3b5612c2159_dsfdzsd.jpg"
+              alt=""
+            />
+            <img
+              class="absolute f-image"
+              src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6241606648a09be4b43c1b2d_5143730.jpg"
+              alt=""
+            />
+            <button class="avarat-btn male">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416019e14a9f92b23a0656_jack.jpg"
+                sizes="(max-width: 991px) 24px, (max-width: 1439px) 2vw, 24px"
+                alt=""
+                class="avatar-image"
+              />
+              <div class="avatar-name">
+                <b>Lee Stone</b>
+                <p>Lee Stone</p>
+              </div>
+            </button>
+            <button class="avarat-btn female">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d1790a7469c_suni.jpg"
+                alt=""
+                class="avatar-image second"
+              />
+              <div class="avatar-name">
+                <b>Mia Potter</b>
+                <p>Mia Potter</p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="moving-imgs">
+          <marquee behavior="alternate" direction="left"
+            ><div class="wrapper-images">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624160aea3fe3bbb2c65fdf5_aldi-sigun-xyVIi4GN5Os-unsplash.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161079041507f61d44606_warren-umoh-YmTIxQbQo4I-unsplash---Copia.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161142db31571ca07f2e5_gvfdzsd.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d7240a746a8_v-c.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161678e4876c2f67828fc_aldi-sigun-K-sdQ12jZeY-unsplash.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161717ab6f12f1c90c969_julien-tromeur-6-adg66qleM-unsplash.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6241617a9e229126c5402af5_gdxjnx.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920de39ca746a7_aldi-sigun-pmACe385Ruo-unsplash.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416057edb3e3b5612c2159_dsfdzsd.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d3209a746a9_gfdgnbhgf.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624160aea3fe3bbb2c65fdf5_aldi-sigun-xyVIi4GN5Os-unsplash.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161079041507f61d44606_warren-umoh-YmTIxQbQo4I-unsplash---Copia.jpg"
+                alt=""
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161142db31571ca07f2e5_gvfdzsd.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d7240a746a8_v-c.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161678e4876c2f67828fc_aldi-sigun-K-sdQ12jZeY-unsplash.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624161717ab6f12f1c90c969_julien-tromeur-6-adg66qleM-unsplash.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6241617a9e229126c5402af5_gdxjnx.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920de39ca746a7_aldi-sigun-pmACe385Ruo-unsplash.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416057edb3e3b5612c2159_dsfdzsd.jpg"
+                class="image-moved"
+              /><img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d3209a746a9_gfdgnbhgf.jpg"
+                class="image-moved"
+              /></div
+          ></marquee>
+        </div>
+      </main>
+      <div id="our-emps">
+        <div class="top">
+          <h1>Hey there,<span class="gradient-text">we are</span></h1>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam <br />arcu, porta et magna at
+          </p>
+        </div>
+        <div class="emps">
+          <div class="emp-names">
+            <button class="buttons sumi btn-clicked" onclick="showDetails(this)">
+              Sumi
+            </button>
+            <button class="buttons jack" onclick="showDetails(this)">
+              Jack
+            </button>
+            <button class="buttons colin" onclick="showDetails(this)">
+              Colin
+            </button>
+          </div>
+
+          <div class="emp-details sumi-detail show-detail">
+            <div class="emp-img">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6241624d64a22031bf6b6b6f_suni.png"
+                alt=""
+              />
+            </div>
+            <div class="emp-text">
+              <h4>Digital Artist</h4>
+              <h1>
+                Pellentesque blandit <br />
+                in quam rhoncus
+              </h1>
+              <p class="para-style">
+                Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor
+                lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris
+                tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor,
+                sed luctus dui ipsum et augue. Integer non quam feugiat,
+                porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque
+                nisi nisl, rutrum ac diam et, semper commodo quam
+              </p>
+            </div>
+          </div>
+          <div class="emp-details jack-detail">
+            <div class="emp-img">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416244e14a9f83f73a141a_jack.png"
+              />
+            </div>
+            <div class="emp-text">
+              <h4>Editor</h4>
+              <h1>
+                Pellentesque blandit <br />
+                in quam rhoncus
+              </h1>
+              <p class="para-style">
+                tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                laudantium ducimus aut perspiciatis vel tempora!augue. Integer
+                non quam feugiat, porttitor libero a, tempor neque. Nulla ac
+                orci mauris. Quisque nisi nisl, rutrum ac diam et, semper
+                commodo quam
+              </p>
+            </div>
+          </div>
+          <div class="emp-details colin-detail">
+            <div class="emp-img">
+              <img
+                src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/62416256e14a9f1a053a14e7_colin.png"
+              />
+            </div>
+            <div class="emp-text">
+              <h4>Programer</h4>
+              <h1>
+                Pellentesque blandit <br />
+                in quam rhoncus
+              </h1>
+              <p class="para-style">
+                id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui
+                ipsum et augue. Integer non quam feugiat, porttitor libero Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Perferendis,
+                deleniti.a, tempor neque. Nulla ac orci mauris. Quisque nisi
+                nisl, rutrum ac diam et, semper commodo quam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-work">
+        <img
+          src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d3e6ea746aa_irene-strong-A6XhSbJuLXk-unsplash.jpg"
+          class="tab-image"
+        />
+        <div class="our-work-text">
+          <h3 class="gradient-text">OUR WORK</h3>
+          <h1>“Um… what’s going on here?”</h1>
+          <p class="para-style">
+            Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque.
+            Vestibulum consectetur vestibulum tristique. Sed purus neque,
+            maximus fermentum bibendum et, porta in sapien.
+          </p>
+          <button class="viewBtn voo-hover">About CodX</button>
+        </div>
+      </div>
+      <div class="work-details">
+        <div class="work">
+          <h3>01</h3>
+          <h1>Motion Graphic</h1>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam arcu, porta et magna at
+          </p>
+          <h3>02</h3>
+          <h1>Digital Illustration</h1>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam arcu, porta et magna at
+          </p>
+          <h3>03</h3>
+          <h1>Photography</h1>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam arcu, porta et magna at
+          </p>
+        </div>
+        <div class="work-img">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6213b7f6a9920d48c7a746ab_cxbvf.jpg"
+          />
+        </div>
+      </div>
+      <div class="join-us">
+        <div class="ju-texts">
+          <h1>Join Us and Discover our most precious NFT</h1>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam arcu, porta et magna at x
+          </p>
+          <a href=""
+            ><button class="viewBtn nav-font voo-hover">
+              View On OpenSea
+            </button></a
+          >
+        </div>
+        <div class="ju-img">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/624ab85175039e777b95d236_Frame1.png"
+            alt=""
+            class="image"
+          />
+        </div>
+      </div>
+      <div class="collectins">
+        <h1>Browse by <span class="gradient-text">Collections</span></h1>
+        <div class="coll-imgs">
+          <div class="coll-contai">
+            <img
+              src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d196fa74707_blu.jpg"
+              alt=""
+              style="overflow: hidden"
+            />
+            <h2>Art</h2>
+          </div>
+          <div class="coll-contai">
+            <img
+              src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d58f5a74706_vadim-bogulov-bU-KakBHOng-unsplash.jpg"
+              alt=""
+            />
+            <h2>Collectibles</h2>
+          </div>
+          <div class="coll-contai">
+            <img
+              src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d6feda746ed_photo1.jpg"
+              alt=" "
+            />
+            <h2>Photography</h2>
+          </div>
+        </div>
+        <div class="collbtn">
+          <button class="viewBtn voo-hover">Viewall</button>
+        </div>
+      </div>
+      <div class="nft-title">
+        <h1>Top <span class="gradient-text">NFT</span></h1>
+      </div>
+      <div class="nft">
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d5c88a746b1_park-eunjin-NPcGyrBvLJc-unsplash.jpg"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>White Bear <span>#76235</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920df405a746b2_v-c.jpg"
+            loading="lazy"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>Happy Luca<span>#61235</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d7eeea746b3_aldi-sigun-pmACe385Ruo-unsplash.jpg"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>Dodo<span>#67731</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d64b2a746b4_aldi-sigun-K-sdQ12jZeY-unsplash.jpg"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>Nano Nano<span>#31225</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d262ca746ca_julien-tromeur-6-adg66qleM-unsplash.jpg"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>Zombie<span>#67535</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nft-container">
+          <img
+            src="https://assets-global.website-files.com/6213b7f6a9920dc388a74697/6213b7f6a9920d773aa746dc_aldi-sigun-xyVIi4GN5Os-unsplash.jpg"
+            alt=""
+          />
+          <div class="nft-bottom">
+            <h2>Pink Devil <span>#76324</span></h2>
+            <div class="nft-icons">
+              <div class="eye-icon voo-hover">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="lock-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nft-btn">
+        <button class="viewBtn voo-hover">Viewall</button>
+      </div>
+
+      <div class="fqa-sction">
+        <div class="fqa-container">
+          <h1>FQA</h1>
+
+          <div class="fqa fqa1">
+            <div class="fqa-head">
+              <h2>
+                Donec posuere massa nec arcu scelerisque, blandit mattis justo
+                blandit
+              </h2>
+              <i class="fa-solid fa-v" onclick="showMorw(this)"></i>
+            </div>
+            <div class="fqa-ans">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                laudantium culpa, quibusdam asperiores quidem accusantium vel
+                rerum similique quas repellendus temporibus aperiam ea magni
+                iste eos facere! Optio odit vel dicta qui! Quisquam quae aliquid
+                ducimus eligendi tempora, exercitationem possimus quidem
+                provident quod commodi accusamus reiciendis obcaecati, rerum
+                culpa atque?
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quam possimus reprehenderit consectetur libero inventore
+                consequatur nesciunt aut deserunt eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="fqa fqa2">
+            <div class="fqa-head">
+              <h2>nec arcu scelerisque, blandit mattis justo blandit</h2>
+              <i class="fa-solid fa-v" onclick="showMorw(this)"></i>
+            </div>
+            <div class="fqa-ans">
+              <p>
+                repellendus temporibus aperiam ea magni iste eos facere! Optio
+                odit vel dicta qui! Quisquam quae aliquid ducimus eligendi
+                tempora, exercitationem possimus quidem provident quod commodi
+                accusamus reiciendis obcaecati, rerum culpa atque?lor
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quam possimus reprehenderit consectetur libero inventore
+                consequatur nesciunt aut deserunt eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="fqa fqa3">
+            <div class="fqa-head">
+              <h2>blandit mattis justo blandit Lorem ipsum dolor sit amet.</h2>
+              <i class="fa-solid fa-v" onclick="showMorw(this)"></i>
+            </div>
+            <div class="fqa-ans">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                laudantium culpa, quibusdam asperiores quidem accusantium vel
+                rerum similique quas repellendus temporibus aperiam ea magni
+                iste eos facere! Optio odit vel dicta qui! Quisquam quae aliquid
+                ducimus eligendi tempora, exercitationem possimus quidem
+                provident quod commodi accusamus reiciendis obcaecati, rerum
+                culpa atque?
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quam possimus reprehenderit consectetur libero inventore
+                consequatur nesciunt aut deserunt eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="fqa fqa4">
+            <div class="fqa-head">
+              <h2>blandit mattis justo blandit</h2>
+              <i class="fa-solid fa-v" onclick="showMorw(this)"></i>
+            </div>
+            <div class="fqa-ans">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                laudantium culpa, quibusdam asperiores quidem accusantium vel
+                rerum similique quas repellendus temporibus aperiam ea magni
+                iste eos facere! Optio odit vel dicta qui! Quisquam quae aliquid
+                ducimus eligendi tempora, exercitationem possimus quidem
+                provident quod commodi accusamus reiciendis obcaecati, rerum
+                culpa atque?
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quam possimus reprehenderit consectetur libero inventore
+                consequatur nesciunt aut deserunt eligendi.
+              </p>
+            </div>
+          </div>
+          <div class="fqa fqa5">
+            <div class="fqa-head">
+              <h2>
+                dolor sit amet consectetur adipisicing elit. Saepe.nec arcu
+                scelerisque, blandit mattis justo blandit
+              </h2>
+              <i class="fa-solid fa-v" onclick="showMorw(this)"></i>
+            </div>
+            <div class="fqa-ans">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                laudantium culpa, quibusdam asperiores quidem accusantium vel
+                rerum similique quas repellendus temporibus aperiam ea magni
+                iste eos facere! Optio odit vel dicta qui! Quisquam quae aliquid
+                ducimus eligendi tempora, exercitationem possimus quidem
+                provident quod commodi accusamus reiciendis obcaecati, rerum
+                culpa atque?
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quam possimus reprehenderit consectetur libero inventore
+                consequatur nesciunt aut deserunt eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="end-container">
+        <div>
+          <a href="#"
+            ><img
+              src="https://assets-global.website-files.com/6213b7f6a9920d6592a74693/6214ae55324d2ce2c5fe2ab6_logo-1000.svg"
+              class="brand-image"
+          /></a>
+          <h4>Join the community</h4>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="">
+                  <svg
+                    class="s-logo nav-hover sm-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="currentColor"
+                    version="1.1"
+                    id="Layer_1"
+                    x="0px"
+                    y="0px"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 56.693 56.693"
+                    style="enable-background: new 0 0 56.693 56.693"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M54.082,15.5495c-1.8115,0.8047-3.7597,1.3477-5.8051,1.5913c2.0874-1.25,3.6894-3.2305,4.4443-5.5918  c-1.9531,1.1587-4.1152,2-6.418,2.4536c-1.8432-1.9643-4.4702-3.1919-7.3769-3.1919c-5.5816,0-10.1069,4.5254-10.1069,10.107  c0,0.792,0.0893,1.563,0.2617,2.3027c-8.3999-0.4209-15.8477-4.4443-20.8325-10.5596c-0.8697,1.4922-1.3682,3.2281-1.3682,5.0811  c0,3.5063,1.7842,6.5996,4.4961,8.4126c-1.6563-0.0532-3.2154-0.5073-4.5777-1.2647c-0.0009,0.042-0.0009,0.0845-0.0009,0.128  c0,4.896,3.4839,8.9809,8.1079,9.9101c-0.8482,0.2305-1.7412,0.3545-2.6631,0.3545c-0.6519,0-1.2847-0.063-1.9019-0.1816  c1.2867,4.0151,5.0191,6.9375,9.441,7.019c-3.459,2.711-7.8165,4.3267-12.5523,4.3267c-0.8154,0-1.6196-0.0484-2.4106-0.1411  c4.4736,2.8681,9.7856,4.541,15.4931,4.541c18.5908,0,28.7559-15.4009,28.7559-28.7569c0-0.4375-0.0088-0.8745-0.0283-1.3076  C51.0137,19.3571,52.728,17.5769,54.082,15.5495z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg
+                    class="s-logo nav-hover sm-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="currentcolor"
+                    version="1.1"
+                    id="Layer_1"
+                    x="0px"
+                    y="0px"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 56.693 56.693"
+                    enable-background="new 0 0 56.693 56.693"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg
+                    class="s-logo nav-hover sm-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="currentColor"
+                    version="1.1"
+                    id="Layer_1"
+                    x="0px"
+                    y="0px"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 56.7 56.7"
+                    style="enable-background: new 0 0 56.7 56.7"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7   c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"
+                      ></path>
+                      <circle cx="41.5" cy="16.4" r="2.9"></circle>
+                      <path
+                        d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9   h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.4,39.9c0,3.1-0.9,5.6-2.7,7.3   c-1.8,1.7-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6   c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="site">
+          <h4>Site</h4>
+          <ul class="nav-font nav-menu">
+            <li><a href="#about-us" class="nav-hover">About Us</a></li>
+            <li><a href="" class="nav-hover">NFTs</a></li>
+            <li><a href="" class="nav-hover">Contact</a></li>
+          </ul>
+        </div>
+        <div class="utility">
+          <h4>Utility</h4>
+          <ul class="nav-font nav-menu">
+            <li><a href="" class="nav-hover">Style guide </a></li>
+            <li><a href="" class="nav-hover">Licensing</a></li>
+            <li><a href="" class="nav-hover">404</a></li>
+          </ul>
+        </div>
+        <div class="signup">
+          <h2>Stay in the loop</h2>
+          <p class="para-style">
+            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec
+            diam arcu, porta et magna at
+          </p>
+          <div>
+            <input type="text" placeholder="Enter Your Mail Address" />
+            <button class="viewBtn voo-hover">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <i class="fa-regular fa-copyright"></i>
+        <span>2022 All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+  <script src="codX.js"></script>
+</html>
